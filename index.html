@@ -1,480 +1,611 @@
 ﻿<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<html>
 <head>
-<title>Home</title>
-<!-- Meta -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">    
-<link rel="shortcut icon" href="">  
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-<!-- Global CSS -->
-<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-<!-- Plugins CSS -->
-<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>sean - 个人主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+    <meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 
-<!-- Theme CSS -->  
-<link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 
-</head> 
 
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
 <body>
 
-<header class="header">
-	<div class="top-bar container-fluid">
-		<div class="actions">
-			<a class="btn hidden-xs" href="mailto:someone@example.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
-			<a class="btn" href="#"><i class="fa fa-download" aria-hidden="true"></i> Download My Resume</a>
-		</div><!--//actions-->
-		<ul class="social list-inline">
-			<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-			<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-			<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-			<li><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
-			<li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-		</ul><!--//social-->
-	</div><!--//top-bar-->
-	
-	<div class="intro">
-		<div class="container text-center">
-			<img class="profile-image" src="assets/images/profile-image.png" alt="">
-			<h1 class="name">James Doe</h1>
-			<div class="title">Full Stack Developer</div>
-			<div class="profile">
-				<p>Profile info goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p>
-			</div><!--//profile-->
-		</div><!--//container-->
-	</div><!--//intro-->
-	
-	<div class="contact-info">
-		<div class="container text-center">
-			<ul class="list-inline">
-				<li class="email"><i class="fa fa-envelope"></i><a href="mailto:someone@example.com">james.doe@website.com</a></li>
-				<li><i class="fa fa-phone"></i> <a href="tel: 0123456789">0123 456 7890</a></li>
-				<li class="website"><i class="fa fa-globe"></i><a href="#" target="_blank">portfoliosite.com</a></li>
-			</ul>
-		</div><!--//container-->
-	</div><!--//contact-info-->
-	
-	<div class="page-nav-space-holder hidden-xs">
-		<div id="page-nav-wrapper" class="page-nav-wrapper text-center">
-			<div class="container">
-				<ul id="page-nav" class="nav page-nav list-inline">
-					<li><a class="scrollto" href="#experiences-section">Experiences</a></li>
-					<li><a class="scrollto" href="#eudcation-section">Education</a></li>
-					<li><a class="scrollto" href="#skills-section">Skills</a></li>
-					<li><a class="scrollto" href="#testimonials-section">Testimonials</a></li>
-					<li><a class="scrollto" href="#portfolio-section">Portfolio</a></li>
-					<li><a class="scrollto" href="#contact-section">Contact</a></li>
-				</ul><!--//page-nav-->
-			</div>
-		</div><!--//page-nav-wrapper-->
-	</div>
-	
-</header><!--//header-->
+    <div class="fh5co-loader"></div>
 
-<div class="wrapper container">
-	<section id="experiences-section" class="experiences-section section">
-		<h2 class="section-title">Work Experiences</h2>
-		<div class="timeline">
-			<div class="item">
-				<div class="work-place">
-					<h3 class="place">Google</h3>
-					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Mountain View</div>
-				</div>
-				<div class="job-meta">
-					<div class="title">Senior Software Engineer</div>
-					<div class="time">2016 - Present</div>
-				</div><!--//job-meta-->
-				<div class="job-desc">
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p> 
-					<ul>
-						<li>Lorem ipsum dolor sit amet</li>
-						<li>Donec pede justo ante</li>
-						<li>Maecenas tempus tellus eget </li>
-					</ul>
-				</div><!--//job-desc-->
-			</div><!--//item-->
-			
-			<div class="item">
-				<div class="work-place">
-					<h3 class="place">Apple</h3>
-					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>New York</div>
-				</div>
-				<div class="job-meta">
-					<div class="title">Lead Software Engineer</div>
-					<div class="time">2015 - 2016</div>
-				</div><!--//job-meta-->
-				<div class="job-desc">
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p> 
-				</div><!--//job-desc-->
-			</div><!--//item-->
-			
-			<div class="item">
-				<div class="work-place">
-					<h3 class="place">Twitter</h3>
-					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>London</div>
-				</div>
-				<div class="job-meta">
-					<div class="title">Software Engineer</div>
-					<div class="time">2013 - 2015</div>
-				</div><!--//job-meta-->
-				<div class="job-desc">
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p> 
-				</div><!--//job-desc-->
-			</div><!--//item-->
-			
-			<div class="item">
-				<div class="work-place">
-					<h3 class="place">Startup Hub</h3>
-					<div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>London</div>
-				</div>
-				<div class="job-meta">
-					<div class="title">Founder &amp; Lead Developer</div>
-					<div class="time">2012 - 2013</div>
-				</div><!--//job-meta-->
-				<div class="job-desc">
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p> 
-				</div><!--//job-desc-->
-			</div><!--//item-->
-			
-		</div><!--//timeline-->
-		
-	</section><!--//section-->
-	<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
-	<section id="eudcation-section" class="education-section section">
-		<h2 class="section-title">Education</h2>
-		<div class="row">
-			<div class="item col-xs-12 col-sm-4">
-				<div class="item-inner">
-					<h3 class="degree">MSc Computer Science</h3>
-					<div class="education-body">
-						University College of London
-					</div><!--//education-body-->
-					<div class="time">2016 - 2012</div>
-					<div class="desc">
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
-					</div>
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item col-xs-12 col-sm-4">
-				<div class="item-inner">
-					<h3 class="degree">MSc Applied Mathematics</h3>
-					<div class="education-body">
-						University of Bristol
-					</div><!--//education-body-->
-					<div class="time">2010 - 2016</div>
-					<div class="desc">
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
-					</div>
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item col-xs-12 col-sm-4">
-				<div class="item-inner">
-					<h3 class="degree">BSc Creative Technology</h3>
-					<div class="education-body">
-						University of Bristol
-					</div><!--//education-body-->
-					<div class="time">2007 - 2010</div>
-					<div class="desc">
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
-					</div>
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			
-		</div><!--//row-->
-	</section><!--//section-->
-	
-	
-	<section id="skills-section" class="skills-section section text-center">
-		<h2 class="section-title">Professional Skills</h2>
-		<div class="top-skills">
-			<h3 class="subtitle">Top Skills</h3>
-			<div class="row">
-				<div class="item col-xs-12 col-sm-4">
-					<div class="item-inner">
-						<div class="chart-easy-pie text-center">
-							<div class="chart-theme-1 chart" data-percent="98"><span>98</span>%</div>
-						</div>
-						<h4 class="skill-name">Python &amp; Django</h4>
-						<div class="level">Expert, 8 years</div>
-						<div class="desc">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
-						</div>
-					</div><!--//item-inner-->
-				</div><!--//item-->
-				<div class="item col-xs-12 col-sm-4">
-					<div class="item-inner">
-						<div class="chart-easy-pie text-center">
-							<div class="chart-theme-1 chart" data-percent="90"><span>90</span>%</div>
-						</div>
-						<h4 class="skill-name">JavaScript</h4>
-						<div class="level">Expert, 8 years</div>
-						<div class="desc">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
-						</div>
-					</div><!--//item-inner-->
-				</div><!--//item-->
-				<div class="item col-xs-12 col-sm-4">
-					<div class="item-inner">
-						<div class="chart-easy-pie text-center">
-							<div class="chart-theme-1 chart" data-percent="85"><span>85</span>%</div>
-						</div>
-						<h4 class="skill-name">React &amp; Angular</h4>
-						<div class="level">Advanced, 4 years</div>
-						<div class="desc">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient 
-						</div>
-					</div><!--//item-inner-->
-				</div><!--//item-->
-			</div><!--//row-->
-		</div><!--//top-skills-->
-		
-		<div class="other-skills">
-			<h3 class="subtitle">Other Skills</h3>
-			<div class="misc-skills">
-				<span class="skill-tag">HTML5</span>
-				<span class="skill-tag">CSS3</span>
-				<span class="skill-tag">SASS</span>
-				<span class="skill-tag">LESS</span>
-				<span class="skill-tag">Git</span>
-				<br>
-				<span class="skill-tag">Ruby</span>
-				<span class="skill-tag">PHP</span>
-				<span class="skill-tag">Wireframe</span>
-				<span class="skill-tag">Spanish</span>
-				<span class="skill-tag">French</span>
-			</div>
-		</div><!--//other-skills-->
-		
-	</section><!--//skills-section-->
-	
-	<section id="testimonials-section" class="testimonials-section section">
-		<h2 class="section-title">Testimonials</h2>
-		
-		<div id="testimonials-carousel" class="testimonials-carousel carousel slide" data-interval="8000">
-			
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
-				<li data-target="#testimonials-carousel" data-slide-to="1"></li>
-				<li data-target="#testimonials-carousel" data-slide-to="2"></li>
-			</ol>
-			
-			<!-- Wrapper for slides -->
-			<div class="carousel-inner">
-				<div class="item active">
-					<blockquote class="quote">      
-						<i class="fa fa-quote-left"></i>                            
-						<p>James is an excellent software engineer and he is passionate about what he does. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse porttitor metus eros.</p>
-					</blockquote>    
-					<div class="source">
-						<div class="name">Rob Olson</div>
-						<div class="position">Product Manager, Apple</div>
-					</div><!--//source-->   
-												   
-				</div><!--//item-->
-				<div class="item">
-					<blockquote class="quote">
-						<p><i class="fa fa-quote-left"></i>
-						Sed massa leo, aliquet non velit eu, volutpat vulputate odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse porttitor metus eros, ut fringilla nulla auctor a.</p>
-						
-					</blockquote>
-					<div class="source">
-						<div class="name">Christina Jensen</div>
-						<div class="position">Senior Developer, Twitter</div>
-					</div><!--//source-->   
-		   
-				</div><!--//item-->
-				<div class="item">
-					<blockquote class="quote">
-						<p><i class="fa fa-quote-left"></i>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes</p>
-					</blockquote>       
-					<div class="source">
-						<div class="name">Austin Ward</div>
-						<div class="position">CEO, Startup Hub</div>
-					</div><!--//source-->          
-				</div><!--//item-->
-				
-			</div><!--//carousel-inner-->
-		</div><!--//testimonials-carousel-->
-		
-	</section><!--//section-->
-	
-	
-	<section id="portfolio-section" class="portfolio-section section">
-		<h2 class="section-title">Portfolio</h2>
-		<ul id="filters" class="filters clearfix">
-			<li class="type active" data-filter="*">All</li>
-			<li class="type" data-filter=".backend">Back-end</li>
-			<li class="type" data-filter=".frontend">Front-end</li>
-		</ul><!--//filters-->
-		<div class="items-wrapper isotope row">
-			<div class="item frontend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-1.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">AngularJS</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item backend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-2.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">Django</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item backend frontend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-3.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">Django/JavaScript</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item frontend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-4.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">ReactJS</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item backend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-5.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">Python</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			<div class="item backend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-6.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">JavaScript</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			
-			<div class="item frontend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-7.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">HTML/AngularJS</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			
-			<div class="item frontend backend col-md-3 col-xs-6 ">
-				<div class="item-inner">
-					<figure class="figure">
-						<img class="img-responsive" src="assets/images/portfolio/portfolio-8.jpg" alt="" />
-					</figure>
-					<div class="content text-left">
-						<h3 class="sub-title"><a href="#">Project Lorem Ipsum</a></h3>
-						<div class="meta">Python/AngularJS</div>
-						<div class="action"><a href="#">View on Github</a></div>
-					</div><!--//content-->    
-					<a class="link-mask" href="#"></a>              
-				</div><!--//item-inner-->
-			</div><!--//item-->
-			
-		</div><!--//item-wrapper-->
-		
-	</section><!--//section-->
-	
-	<section id="contact-section" class="contact-section section">
-		<h2 class="section-title">Get in Touch</h2>
-		<div class="intro">
-			<img class="profile-image" src="assets/images/profile-image.png" alt="">
-			<div class="dialog">
-				<p>I'm currently taking on freelance work. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-				<p><strong>I can help with the following:</strong></p>
-				<ul class="list-unstyled service-list">
-					<li><i class="fa fa-check" aria-hidden="true"></i> App development with ReactJS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i> Front-end development with AngularJS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i> Back-end development with Django/Python</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i> UI development</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i> UX prototyping</li>
-				</ul>
-				<p>Drop me a line at <a href="mailto:someone@example.com">james.doe@website.com</a> or call me at <a href="tel:01234567890">0123 456 7890</a></p>
-				<ul class="social list-inline">
-					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-				</ul><!--//social-->
-			</div><!--//diaplog-->
-		</div><!--//intro-->
+    <div id="page">
+        <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <div class="display-t js-fullheight">
+                            <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+                                <div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+                                <h1><span>Sean Chang</span></h1>
+                                <h3><span>Asp.Net Developer</span></h3>
+                                <!--<p>
+                                    <ul class="fh5co-social-icons">
+                                        <li><a href="#"><i class="icon-twitter2"></i></a></li>
+                                        <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                                        <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+                                        <li><a href="#"><i class="icon-dribbble2"></i></a></li>
+                                    </ul>
+                                </p>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-	</section><!--//section-->
-	
-</div><!--//wrapper-->
+        <div id="fh5co-about" class="animate-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>关于我</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <ul class="info">
+                            <li><span class="first-block">姓名:</span><span class="second-block">张顾严</span></li>
+                            <li><span class="first-block">电话:</span><span class="second-block">+86 15588127486</span></li>
+                            <li><span class="first-block">地址:</span><span class="second-block">山东省临沂市</span></li>
+                            <li><span class="first-block">Email:</span><span class="second-block">seanzhang1988@sina.cn</span></li>
+                            <li><span class="first-block">GitHub:</span><span class="second-block">https://github.com/seanzhang1988</span></li>
+                            <li><span class="first-block">blog:</span><span class="second-block">http://www.cnblogs.com/seanchang/</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-7">
+                        <h2>Hello There!</h2>
+                        <p>将近
+                        <script> document.write(new Date().getFullYear() - 2010)</script>年 .net 实际开发经验，可熟练使用c#、JavaScript、JQuery、css、html、bootstrap等开发b/s或c/s软件项目，日常开发钟情于MVC+CRM(EF、dapper)。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<footer class="footer text-center">
-	<div class="container">
-		<small class="copyright">Copyright &copy; 2016.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></small>
-	</div><!--//container-->
-</footer>
+        <div id="fh5co-resume" class="fh5co-bg-color">
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>我的简历</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-md-offset-0">
+                        <ul class="timeline">
+                            <li class="timeline-heading text-center animate-box">
+                                <div><h3>工作经历</h3></div>
+                            </li>
+                            <li class="animate-box timeline-unverted">
+                                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3 class="timeline-title">Asp.Net高级开发工程师</h3>
+                                        <span class="company">临沂新明辉安全科技有限公司 - 2016.7 - 至今</span>
+                                        <span class="company">坐标 - 临沂</span>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>负责公司OA系统设计开发与日常维护，另参与公司WMS系统二期开发。</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted animate-box">
+                                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3 class="timeline-title">Asp.Net高级开发工程师</h3>
+                                        <span class="company">连凯软件（北京）有限公司 - 2015.8 - 2016.6</span>
+                                        <span class="company">坐标 - 临沂</span>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>负责公司“连凯汇商”网站（http://www.lksh.cn）设计开发。</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="animate-box timeline-unverted">
+                                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3 class="timeline-title">Asp.Net高级软件开发工程师/项目经理</h3>
+                                        <span class="company">江苏三希科技股份有限公司 - 2011.7 - 2015.7</span>
+                                        <span class="company">坐标 - 济南</span>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>主要负责公司环境安全防护系统开发，参与公司其他产品开发升级。</p>
+                                    </div>
+                                </div>
+                            </li>
 
-<!-- Javascript -->          
-<script type="text/javascript" src="assets/plugins/jquery-1.12.4.min.js"></script>
-<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
-<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-<script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
-<script type="text/javascript" src="assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-<script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script> 
-<script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script>  
 
-<!-- custom js -->
-<script type="text/javascript" src="assets/js/main.js"></script>
+                            <li class="timeline-heading text-center animate-box">
+                                <div><h3>教育经历</h3></div>
+                            </li>
+                            <li class="timeline-inverted animate-box">
+                                <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3 class="timeline-title">本科</h3>
+                                        <span class="company">山东大学（自考本科） - 2008 - 2012</span>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>山东大学自考（计算机信息管理），期间在济南一家软件培训机构学习c#相关开发技能。</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--
+        <div id="fh5co-features" class="animate-box">
+            <div class="container">
+                <div class="services-padding">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                            <h2>My Services</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <div class="feature-left">
+                                <span class="icon">
+                                    <i class="icon-paintbrush"></i>
+                                </span>
+                                <div class="feature-copy">
+                                    <h3>Web Design</h3>
+                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                </div>
+                            </div>
+                        </div>
 
-<!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-<script src="assets/js/demo/style-switcher.js"></script>     
+                        <div class="col-md-4 text-center">
+                            <div class="feature-left">
+                                <span class="icon">
+                                    <i class="icon-briefcase"></i>
+                                </span>
+                                <div class="feature-copy">
+                                    <h3>Branding</h3>
+                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                </div>
+                            </div>
 
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="feature-left">
+                                <span class="icon">
+                                    <i class="icon-search"></i>
+                                </span>
+                                <div class="feature-copy">
+                                    <h3>Analytics</h3>
+                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+
+                            <div class="feature-left">
+                                <span class="icon">
+                                    <i class="icon-bargraph"></i>
+                                </span>
+                                <div class="feature-copy">
+                                    <h3>Web Developent</h3>
+                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 text-center">
+                            <div class="feature-left">
+                                <span class="icon">
+                                    <i class="icon-genius"></i>
+                                </span>
+                                <div class="feature-copy">
+                                    <h3>Web Marketing</h3>
+                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="feature-left">
+                                <span class="icon">
+                                    <i class="icon-chat"></i>
+                                </span>
+                                <div class="feature-copy">
+                                    <h3>Support</h3>
+                                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <div id="fh5co-skills" class="animate-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>Skills</h2>
+                    </div>
+                </div>
+                <div class="row row-pb-md">
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="89"><span><strong>PHP</strong>89%</span></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="90"><span><strong>AngularJS</strong>90%</span></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="85"><span><strong>Ruby</strong>85%</span></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="chart" data-percent="90"><span><strong>Java</strong>90%</span></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">HTML5/CSS3</span><span class="value-right">95%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">WordPress</span><span class="value-right">90%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">PHP</span><span class="value-right">80%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">Java</span><span class="value-right">85%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">Design</span><span class="value-right">100%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">Ruby</span><span class="value-right">70%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">Python</span><span class="value-right">85%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left">jQuery</span><span class="value-right">75%</span></h3>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fh5co-work" class="fh5co-bg-dark">
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>Work</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">
+                            <div class="desc">
+                                <h3>Project Name</h3>
+                                <span>Illustration</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">
+                            <div class="desc">
+                                <h3>Project Name</h3>
+                                <span>Brading</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+                            <div class="desc">
+                                <h3>Project Name</h3>
+                                <span>Illustration</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">
+                            <div class="desc">
+                                <h3>Project Name</h3>
+                                <span>Design</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
+                            <div class="desc">
+                                <h3>Project Name</h3>
+                                <span>Website</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
+                            <div class="desc">
+                                <h3>Project Name</h3>
+                                <span>Illustration</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
+                            <div class="desc">
+                                <h3>Project Name</h3>
+                                <span>Brading</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 text-center col-padding animate-box">
+                        <a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
+                            <div class="desc">
+                                <h3>Project Name</h3>
+                                <span>Illustration</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fh5co-blog">
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>Post on Medium</h2>
+                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="fh5co-blog animate-box">
+                            <a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
+                            <div class="blog-text">
+                                <span class="posted_on">Mar. 15th 2016</span>
+                                <h3><a href="#">Photoshoot On The Street</a></h3>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <ul class="stuff">
+                                    <li><i class="icon-heart2"></i>249</li>
+                                    <li><i class="icon-eye2"></i>308</li>
+                                    <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fh5co-blog animate-box">
+                            <a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
+                            <div class="blog-text">
+                                <span class="posted_on">Mar. 15th 2016</span>
+                                <h3><a href="#">Surfing at Philippines</a></h3>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <ul class="stuff">
+                                    <li><i class="icon-heart2"></i>249</li>
+                                    <li><i class="icon-eye2"></i>308</li>
+                                    <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fh5co-blog animate-box">
+                            <a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
+                            <div class="blog-text">
+                                <span class="posted_on">Mar. 15th 2016</span>
+                                <h3><a href="#">Capture Living On Uderwater</a></h3>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                <ul class="stuff">
+                                    <li><i class="icon-heart2"></i>249</li>
+                                    <li><i class="icon-eye2"></i>308</li>
+                                    <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <div id="fh5co-started" class="fh5co-bg-dark">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>Hire Me!</h2>
+                        <p>You can call me or email me,I'll get back to you as soon as I get the msg.</p>
+                        <p><a href="files/resume20181003.doc" class="btn btn-default btn-lg"><em class="icon icon-download"></em> 下载我的简历</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fh5co-consult">
+            <div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
+                <div class="overlay"></div>
+            </div>
+            <div class="choose animate-box">
+                <h2>Contact</h2>
+                <form action="/service/Handler1.ashx?Method=SubmitResume" data-ajax="true"  data-ajax-method="Post" data-ajax-success="OnSubmitSuccess" method="post">
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input data-val="true" autocomplete="off" class="form-control" data-val-length="oh man ,你的名字太长了" data-val-length-max="20" data-val-required="劳驾输个姓名先" id="fname" name="fname" placeholder="Your name" value="" aria-invalid="true" type="text">
+                            <span class="ml field-validation-valid text-warning" data-valmsg-for="fname" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input data-val="true" data-val-regex-pattern="^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$" data-val-regex="你确定这个是email??" class="form-control" data-val-required="留下你的email吧" id="email" name="email" placeholder="Your email" value="" aria-invalid="true" type="text">
+                            <span class="ml field-validation-valid text-warning" data-valmsg-for="email" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Your subject of this message">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <textarea data-val="true" aria-invalid="true" class="form-control" data-val-length="留言太长了，500个字符就够了" data-val-length-max="500" data-val-required="说点什么吧" name="message" id="message" cols="30" rows="10" placeholder="Say something about me"></textarea>
+                            <span class="ml field-validation-valid text-warning" data-valmsg-for="message" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Send Message" class="btn btn-primary">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="fh5co-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2018 SEAN. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="js/jquery.stellar.min.js"></script>
+    <!-- Easy PieChart -->
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <!-- Google Map -->
+
+    <!--<script src="js/google_map.js"></script>-->
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="js/jquery.validate.unobtrusive.min.js"></script>
+    <!-- Main -->
+    <script src="js/main.js"></script>
+    <script src="js/notify.js"></script>
+    <script>
+        var OnSubmitSuccess = function (r) {
+            r = eval('(' + r + ')'), r.result === "ok" ? $.notify({
+                message: '留言成功！',
+                status: 'warning',
+                timeout: 2000
+            }).show() : $.notify({
+                message: '留言失败！',
+                status: 'danger',
+                timeout: 2000
+            }).show()
+        }
+    </script>
 </body>
 </html>
